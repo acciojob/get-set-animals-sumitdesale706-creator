@@ -8,7 +8,7 @@ class Animal {
 		  return this.species;
 	 }
 
-	 void makeSound(){
+	 makeSound(){
 		   console.log(`The ${this.species} makes a sound`);
 	 }
 }
@@ -18,7 +18,7 @@ class Dog extends Animal {
 		 super(sp);	 
 	 }
 	
-	 void bark(){
+	 bark(){
 		    console.log("woof");
 	 }
 }
@@ -27,7 +27,8 @@ class Cat extends Animal {
 	 constructor(sp){
 		 super(sp);	 
 	 }
-	 void purr(){
+	 
+	purr(){
 		  console.log("purr");
 	 }
 }
